@@ -7,7 +7,6 @@ module Main
 import Data.Attoparsec.ByteString        ((<?>), Parser, parseOnly)
 import Data.Attoparsec.ByteString.Char8  (decimal, endOfLine, endOfInput, many')
 import Data.ByteString                   (ByteString)
-import Data.List                         (elem)
 --------------------------------------------------------------------------------
 import qualified Data.ByteString as BS   (readFile)
 --------------------------------------------------------------------------------
