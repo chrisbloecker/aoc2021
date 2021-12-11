@@ -8,10 +8,7 @@ module Main
   where
 --------------------------------------------------------------------------------
 import Control.Monad                     (replicateM)
-import Data.List                         (sort)
 import Data.Map.Strict                   (Map)
-import Data.Maybe                        (catMaybes, fromJust, fromMaybe)
-import Data.Set                          (Set)
 import Data.Text                         (Text)
 import Data.Void                         (Void)
 import Text.Megaparsec
