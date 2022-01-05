@@ -87,7 +87,7 @@ plot Origami{..} =
                | y <- [0 .. height-1]
                , x <- [0 .. width-1 ]
                ]
-    in concat . map (++ "\n") . chunks width $ grid
+    in unlines . chunks width $ grid
 
 main :: IO ()
 main = do
